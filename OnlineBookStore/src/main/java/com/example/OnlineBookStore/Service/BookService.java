@@ -8,5 +8,6 @@ public interface BookService {
     void addBook(BookDTO bookDTO);
     void deleteBook(Long bookId);
     List<BookDTO> getAllBooks();
+    
 
 }
