@@ -22,6 +22,7 @@ public class BookServiceImpl implements BookService {
         book.setTitle(bookDTO.getTitle());
         book.setAuthor(bookDTO.getAuthor());
         book.setPrice(bookDTO.getPrice());
+        System.out.println("hello");
         bookRepository.save(book);
     }
 
